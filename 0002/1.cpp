@@ -3,9 +3,14 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int a = 15;
-    int b = 9;
-    int c = a+b; 
-    cout << a << "+" << b << "=" << c << endl; 
+    int a;
+    int b;
+    int c; 
+    cout <<"enter a" << endl;
+    cin  >> a;
+    cout <<"enter b" << endl;
+    cin >> b;
+    c = a + b;
+    cout << a << " " << "+" << " " << b << " " << "=" << " " << c <<" " << endl; 
     return 0;
 }
